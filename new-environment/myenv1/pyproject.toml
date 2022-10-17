@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "myenv1"
+version = "0.1.0"
+description = ""
+authors = ["AbdulRehmanThebo <arehman.thebo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.0"
+numpy = "^1.23.3"
+pyodbc = "^4.0.34"
+pyarrow = "^9.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
